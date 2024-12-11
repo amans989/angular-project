@@ -1,0 +1,107 @@
+/* Make the entire page black background and green text */
+body {
+    background-color: #000;  /* Black background */
+    color: #0f0;             /* Green text */
+    font-family: monospace;  /* Monospace font for that "terminal" feel */
+    margin: 0;
+    padding: 20px;           /* Add some padding so text isn't flush at the edge */
+    text-align: center;      /* Center the text if desired */
+}
+
+/* Style links to fit the green-on-black theme */
+a {
+    color: #0f0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0f0;
+}
+
+/* Navigation menu adjustments */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    margin: 20px 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 4px 8px; /* Add padding for better clickability */
+    border-radius: 4px; /* Slight rounding for hover effects */
+  }
+  
+  /* Green hover effect for navigation links */
+  nav a:hover {
+    background-color: #0f0; /* Green background on hover */
+    color: #000; /* Black text for contrast on hover */
+  }
+  
+/* Form styling to fit the theme: green borders and black background */
+form {
+    display: inline-block;
+    text-align: left;
+    width: 80%;
+    max-width: 600px;
+    background-color: #000;
+    border: 1px solid #0f0;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: black;    /* Currently set to black; can be changed to #0f0 if desired for consistency */
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    background-color: #000;
+    color: #0f0;
+    border: 1px solid #0f0;
+    padding: 8px;
+    margin-bottom: 1rem;
+    font-family: monospace;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #0f0;
+    border: 1px solid #0f0;
+    cursor: pointer;
+    font-family: monospace;
+}
+
+button:hover {
+    background-color: #111;
+}
+
+button:disabled {
+    color: #999;
+    border-color: #999;
+    cursor: not-allowed;
+}
+
+.error {
+    color: #ff0000; /* Red text for errors stands out on black background */
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+h1, h2, p {
+    margin: 20px 0;
+}
+
+ul li strong {
+    color: #0f0;
+}

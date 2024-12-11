@@ -1,0 +1,9 @@
+<h1>Quote of the Day</h1>
+<div *ngIf="quote; else loadingTemplate">
+  <p>{{ quote.q }}</p>
+  <p><strong>- {{ quote.a || 'Unknown' }}</strong></p>
+</div>
+
+<ng-template #loadingTemplate>
+  <p>Loading quote...</p>
+</ng-template>
