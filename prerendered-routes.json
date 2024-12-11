@@ -1,0 +1,7 @@
+{
+  "routes": {
+    "/angular-project": {},
+    "/angular-project/api-page": {},
+    "/angular-project/form": {}
+  }
+}

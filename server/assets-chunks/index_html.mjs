@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en" data-beasties-container><head>
+export default `<!DOCTYPE html><html lang="en" data-beasties-container><head>
   <meta charset="utf-8">
   <title>My New Angular Project</title>
   <base href="/angular-project/">
@@ -10,4 +10,4 @@
   <app-root _nghost-ng-c3075757930 ng-version="19.0.3" ngh="1" ng-server-context="ssg"><nav _ngcontent-ng-c3075757930><ul _ngcontent-ng-c3075757930><li _ngcontent-ng-c3075757930><a _ngcontent-ng-c3075757930 routerlink="/" href="/angular-project/" jsaction="click:;">Home</a></li><li _ngcontent-ng-c3075757930><a _ngcontent-ng-c3075757930 routerlink="/api-page" href="/angular-project/api-page" jsaction="click:;">API</a></li><li _ngcontent-ng-c3075757930><a _ngcontent-ng-c3075757930 routerlink="/form" href="/angular-project/form" jsaction="click:;">Form</a></li></ul></nav><router-outlet _ngcontent-ng-c3075757930></router-outlet><app-home _nghost-ng-c1800406940 ngh="0"><h1 _ngcontent-ng-c1800406940>Welcome</h1><h2 _ngcontent-ng-c1800406940>This is the Home page.</h2></app-home><!----></app-root>
 <script src="polyfills-FFHMD2TL.js" type="module"></script><script src="main-W46UB4QU.js" type="module"></script>
 
-<script id="ng-state" type="application/json">{"__nghData__":[{},{"c":{"11":[{"i":"c1800406940","r":1}]}}]}</script></body></html>
+<script id="ng-state" type="application/json">{"__nghData__":[{},{"c":{"11":[{"i":"c1800406940","r":1}]}}]}</script></body></html>`;
